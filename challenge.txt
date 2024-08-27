@@ -1,0 +1,10 @@
+question = input("Hi! What do you want to know about me? Input one of the following (Name, Major, Hobby):\n")
+
+if question == "Name":
+    print("I'm Pallon!")
+elif question == "Major":
+    print("Computer Science!")
+elif question == "Hobby":
+    print("I love Programming IG!")
+else:
+    print("To be added in the future!")
